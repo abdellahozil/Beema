@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Beema/static/css/main.dc867681.css",
+    "main.js": "/Beema/static/js/main.e1eb5c25.js",
+    "static/js/453.f216cda8.chunk.js": "/Beema/static/js/453.f216cda8.chunk.js",
+    "index.html": "/Beema/index.html",
+    "main.dc867681.css.map": "/Beema/static/css/main.dc867681.css.map",
+    "main.e1eb5c25.js.map": "/Beema/static/js/main.e1eb5c25.js.map",
+    "453.f216cda8.chunk.js.map": "/Beema/static/js/453.f216cda8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc867681.css",
+    "static/js/main.e1eb5c25.js"
+  ]
+}
