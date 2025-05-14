@@ -1,0 +1,82 @@
+.card-container {
+    width: 350px;
+    height: 430px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px rgba(17, 17, 17, 0.2);
+    border-radius: 3px;
+    margin: 5px 0;
+    position: relative;
+    padding: 10px 1.2em;
+    margin-left: 20px;
+}
+.quote-icon {
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    color: #d1d1d1;
+    font-size: 37px;
+}
+.review-text {
+    font-size: 17px;
+    color: #585858;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+.line {
+    min-width: 100%;
+    min-height: 1px;
+    margin-bottom: 1em;
+    background-color: #cdcdcd;
+    display: flex;
+}
+.user-detail {
+    display: flex;
+    align-items: center;
+}
+.user-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-name {
+    font-size: 15px;
+    color: #000;
+}
+.slick-initialized .slick-slide  {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1436px) {
+    .slick-initialized .slick-slide  {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1436px) {
+    .slick-initialized .slick-slide  {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and  (max-width: 980px) {
+    .slick-initialized .slick-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slick-arrow {
+        display: none !important;
+    }
+}
+@media screen and  (max-width: 495px) {
+    .card-container {
+        width: 300px;
+    }
+}
+@media screen and  (max-width: 423px) {
+    .card-container {
+        width: 280px;
+    }
+}

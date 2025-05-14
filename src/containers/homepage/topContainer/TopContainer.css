@@ -1,0 +1,68 @@
+.top-container {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background-image: url("../../../assets/pictures/company_team.jpg");
+    background-size: cover;
+    position: relative;
+}
+.background-filter {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(55, 55, 55, 0.89);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vertical-span {
+    display: flex;
+    height: 8em;
+}
+.vertical-span2 {
+    display: flex;
+    height: 4em;
+}
+.vertical-span3 {
+    display: flex;
+    height: 2em;
+}
+.motivational-text {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+}
+.down-arrow-container {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-img-top {
+    width: 8em;
+    height: 8em;
+}
+.logo-text-top {
+    margin-top: 6px;
+    font-size: 40px;
+    color: #00b997;
+    font-weight: 900;
+}
+@media screen and (max-width: 500px) {
+    .logo-img-top {
+        width: 4em;
+        height: 4em;
+    }
+    .logo-text-top {
+        font-size: 20px;
+    }
+    .motivational-text {
+        font-size: 24px;
+    }
+}
